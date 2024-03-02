@@ -1,2 +1,2 @@
 # Js-Antimabit
-Learning JavaScript in New way with Hitesh Choudhary
+Learning JavaScript  with Hitesh Choudhary
