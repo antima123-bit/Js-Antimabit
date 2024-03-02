@@ -47,4 +47,40 @@
  //reason for the operators called ==, >=,<=,<< where the == sign should work differently whereas ><= works differently 
  //comparison convert null to numbers treating it as a 0 that why null >= 0 is true and null> 0 is false
  
- 
+ //primitive data types
+ // there are 7 caterogy in primitive they are call by values 
+ // string , number , boolean , null,undefined,symbol,bigint
+
+const score =100
+const scorevalue = 100.3
+
+//to declare the variable we should used the let keyword
+const isloggedin= false
+const outsidetemp= null
+let userEmail;
+const Id= Symbol('123')
+const anotherid = Symbol('123')
+console.log(Id === anotherid);
+
+
+
+
+const id = Symbol('123')
+  
+
+ //Reference (non-primitve) there memory are directly allocated 
+ //arrays , object , functions
+
+ //typeof undefined = undefined , Null= object , Boolean=boolean,Number=number,
+ //String=string 
+ const heros =["iron man" , "c.america "];
+ let myobj={
+    name: "antima",
+    age : 19,
+ }
+
+ const myfunction = function(){
+    console.log("hello world");
+
+ }
+ console.log(typeof anotherid);
